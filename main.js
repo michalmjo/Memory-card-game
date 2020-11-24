@@ -66,6 +66,7 @@ const clickCard = function () {
 
     }
 
+
 }
 
 const init = () => {
@@ -79,6 +80,7 @@ const init = () => {
         cards.forEach((card) => {
             card.classList.add("hidden");
             card.addEventListener("click", clickCard);
+            card.setAttribute('draggable', false);
         })
     }, 2000)
 }
