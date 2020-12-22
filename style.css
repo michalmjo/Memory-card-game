@@ -135,3 +135,7 @@ div.container img {
 .hidden {
     opacity: 0;
 }
+
+.noneActivity {
+    pointer-events: none;
+}
